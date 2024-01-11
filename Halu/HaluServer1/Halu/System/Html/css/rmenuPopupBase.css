@@ -1,0 +1,242 @@
+﻿@charset "utf-8";
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+}
+
+body {
+  font-family: arial,helvetica,clean,sans-serif,verdana;
+  font-size: 12px;
+  line-height: 16px;
+  margin:0;
+  padding:10px 0;
+  background: #efefef;
+}
+
+/*========================================
+ +header
+========================================*/
+#header {
+  width: 840px; 
+  height: 50px;
+  margin: 0px auto 10px;
+  padding: 7.5px;
+  -webkit-border-radius: .5em;
+  -moz-border-radius: .5em;
+  -ms-border-radius: .5em;
+  border-radius: .5em;
+  background: #999;
+  background: -webkit-gradient(linear, left top, left bottom, from(#bcbcbc), to(#999));
+  background: -webkit-linear-gradient(top, #bcbcbc, #999);
+  background: -moz-linear-gradient(top, #bcbcbc, #999);
+  background: -ms-linear-gradient(top, #bcbcbc, #999);
+  background: -o-linear-gradient(top, #bcbcbc, #999);
+  background: linear-gradient(top, #bcbcbc, #999);
+  -pie-background: linear-gradient(top, #bcbcbc, #999);
+  position:relative;
+  behavior: url("../../../../../System/Html/css/PIE/PIE.htc");
+}
+
+/*========================================
+ +header_contents
+========================================*/
+#header_contents {
+  width: 820px; 
+  height: 30px;
+  margin: 0px auto;
+  padding: 10px;
+  -webkit-border-radius: .25em;
+  -moz-border-radius: .25em;
+  -ms-border-radius: .25em;
+  border-radius: .25em;
+  background: #fff;
+  background: -webkit-gradient(linear, left top, left bottom, from(#efefef), to(#dfdfdf));
+  background: -webkit-linear-gradient(top, #efefef, #dfdfdf);
+  background: -moz-linear-gradient(top, #efefef, #dfdfdf);
+  background: -ms-linear-gradient(top, #efefef, #dfdfdf);
+  background: -o-linear-gradient(top, #efefef, #dfdfdf);
+  background: linear-gradient(top, #efefef, #dfdfdf);
+  -pie-background: linear-gradient(top, #efefef, #dfdfdf);
+  -webkit-box-shadow: 0 0 2px #000;
+  -moz-box-shadow: 0 0 2px #000;
+  -ms-box-shadow: 0 0 2px #000;
+  box-shadow: 0 0 2px #000;
+  position:relative;
+  behavior: url("../../../../../System/Html/css/PIE/PIE.htc");
+}
+
+/*========================================
+ +main
+========================================*/
+#main {
+  width: 860px; 
+  min-height:560px;
+  margin: 0px auto;
+  padding: 7.5px;
+  -webkit-border-radius: .5em;
+  -moz-border-radius: .5em;
+  -ms-border-radius: .5em;
+  border-radius: .5em;
+  background: #999;
+  background: -webkit-gradient(linear, left top, left bottom, from(#bcbcbc), to(#999));
+  background: -webkit-linear-gradient(top, #bcbcbc, #999);
+  background: -moz-linear-gradient(top, #bcbcbc, #999);
+  background: -ms-linear-gradient(top, #bcbcbc, #999);
+  background: -o-linear-gradient(top, #bcbcbc, #999);
+  background: linear-gradient(top, #bcbcbc, #999);
+  -pie-background: linear-gradient(top, #bcbcbc, #999);
+  position:relative;
+  behavior: url("../../../../../System/Html/css/PIE/PIE.htc");
+}
+
+/*========================================
+ +main_contents
+========================================*/
+#main_contents {
+  width: 840px; 
+  min-height:540px;
+  margin: 0px auto;
+  padding: 10px;
+  -webkit-border-radius: .25em;
+  -moz-border-radius: .25em;
+  -ms-border-radius: .25em;
+  border-radius: .25em;
+  background: #fff;
+  background: -webkit-gradient(linear, left top, left bottom, from(#efefef), to(#dfdfdf));
+  background: -webkit-linear-gradient(top, #efefef, #dfdfdf);
+  background: -moz-linear-gradient(top, #efefef, #dfdfdf);
+  background: -ms-linear-gradient(top, #efefef, #dfdfdf);
+  background: -o-linear-gradient(top, #efefef, #dfdfdf);
+  background: linear-gradient(top, #efefef, #dfdfdf);
+  -pie-background: linear-gradient(top, #efefef, #dfdfdf);
+  -webkit-box-shadow: 0 0 2px #000;
+  -moz-box-shadow: 0 0 2px #000;
+  -ms-box-shadow: 0 0 2px #000;
+  box-shadow: 0 0 2px #000;
+  overflow: hidden;
+  *zoom: 1;
+  position:relative;
+  behavior: url("../../../../../System/Html/css/PIE/PIE.htc");
+}
+
+/*========================================
+ +floating_contents
+========================================*/
+#floating_contents {
+  width: 0px; 
+  min-height: 0px;
+  margin: 0 auto;
+  padding: 10px;
+  -webkit-border-radius: .25em;
+  -moz-border-radius: .25em;
+  -ms-border-radius: .25em;
+  border-radius: .25em;
+  background: #fff;
+  background: -webkit-gradient(linear, left top, left bottom, from(#efefef), to(#dfdfdf));
+  background: -webkit-linear-gradient(top, #efefef, #dfdfdf);
+  background: -moz-linear-gradient(top, #efefef, #dfdfdf);
+  background: -ms-linear-gradient(top, #efefef, #dfdfdf);
+  background: -o-linear-gradient(top, #efefef, #dfdfdf);
+  background: linear-gradient(top, #efefef, #dfdfdf);
+  -pie-background: linear-gradient(top, #efefef, #dfdfdf);
+  -webkit-box-shadow: 0 0 2px #000;
+  -moz-box-shadow: 0 0 2px #000;
+  -ms-box-shadow: 0 0 2px #000;
+  box-shadow: 0 0 2px #000;
+  overflow: hidden;
+  *zoom: 1;
+  visibility:hidden;  
+  position:relative;
+  behavior: url("../../../../../System/Html/css/PIE/PIE.htc");
+}
+
+/*====================
+ +footer
+====================*/
+#footer {
+  width: 840px; 
+  height: 40px;
+  margin: 10px auto 0px;
+  padding: 7.5px;
+  -webkit-border-radius: .5em;
+  -moz-border-radius: .5em;
+  -ms-border-radius: .5em;
+  border-radius: .5em;
+  background: #999;
+  background: -webkit-gradient(linear, left top, left bottom, from(#bcbcbc), to(#999));
+  background: -webkit-linear-gradient(top, #bcbcbc, #999);
+  background: -moz-linear-gradient(top, #bcbcbc, #999);
+  background: -ms-linear-gradient(top, #bcbcbc, #999);
+  background: -o-linear-gradient(top, #bcbcbc, #999);
+  background: linear-gradient(top, #bcbcbc, #999);
+  -pie-background: linear-gradient(top, #bcbcbc, #999);
+  position:relative;
+  behavior: url("../../../../../System/Html/css/PIE/PIE.htc");
+}
+
+/*====================
+ +footer_contents
+====================*/
+#footer_contents {
+  width: 820px; 
+  height: 20px;
+  margin: 0px auto;
+  padding: 10px;
+  -webkit-border-radius: .25em;
+  -moz-border-radius: .25em;
+  -ms-border-radius: .25em;
+  border-radius: .25em;
+  background: #fff;
+  background: -webkit-gradient(linear, left top, left bottom, from(#efefef), to(#dfdfdf));
+  background: -webkit-linear-gradient(top, #efefef, #dfdfdf);
+  background: -moz-linear-gradient(top, #efefef, #dfdfdf);
+  background: -ms-linear-gradient(top, #efefef, #dfdfdf);
+  background: -o-linear-gradient(top, #efefef, #dfdfdf);
+  background: linear-gradient(top, #efefef, #dfdfdf);
+  -pie-background: linear-gradient(top, #efefef, #dfdfdf);
+  -webkit-box-shadow: 0 0 2px #000;
+  -moz-box-shadow: 0 0 2px #000;
+  -ms-box-shadow: 0 0 2px #000;
+  box-shadow: 0 0 2px #000;
+  position:relative;
+  behavior: url("../../../../../System/Html/css/PIE/PIE.htc");
+}
+
+/*====================
+ +align-right 
+====================*/
+.align-right {
+  text-align: right;
+}
+
+/*====================
+ +align-center 
+====================*/
+.align-center {
+  text-align: center;
+}
+
+/*====================
+ +header table 
+====================*/
+.spanhoverclass {
+  outline: dotted 1px #f33;
+}
+
+.spanfocusclass {
+  outline: solid 1px #f33;
+}
+
+/*====================
+ +detail table 
+====================*/
+.tdhoverclass {
+  outline: dotted 1px #f33;
+}
+
+.tdfocusclass {
+  outline: solid 1px #f33;
+}

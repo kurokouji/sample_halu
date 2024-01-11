@@ -1,0 +1,68 @@
+/**
+ * Your theme name here
+ *
+ * Say something about the theme
+ *
+ * Give yourself some credit here
+ *
+ */
+
+.dk_theme_black {
+  background: #aebcbf;
+  background: -moz-linear-gradient(top,
+    #aebcbf 0%,
+    #6e7774 50%,
+    #0a0e0a 51%,
+    #0a0809 100%
+  );
+  background: -webkit-gradient(linear,
+    left top,
+    left bottom,
+    color-stop(0%,#aebcbf),
+    color-stop(50%,#6e7774),
+    color-stop(51%,#0a0e0a),
+    color-stop(100%,#0a0809)
+  );
+  background: -webkit-linear-gradient(top,
+    #aebcbf 0%,
+    #6e7774 50%,
+    #0a0e0a 51%,
+    #0a0809 100%
+  );
+  background: -o-linear-gradient(top,
+    #aebcbf 0%,
+    #6e7774 50%,
+    #0a0e0a 51%,
+    #0a0809 100%
+  );
+  background: -ms-linear-gradient(top,
+    #aebcbf 0%,
+    #6e7774 50%,
+    #0a0e0a 51%,
+    #0a0809 100%
+  );
+  background: linear-gradient(top,
+    #aebcbf 0%,
+    #6e7774 50%,
+    #0a0e0a 51%,
+    #0a0809 100%
+  );
+}
+  .dk_theme_black .dk_toggle,
+  .dk_theme_black.dk_open .dk_toggle {
+    background-color: transparent;
+    color: #fff;
+    text-shadow: none;
+  }
+  .dk_theme_black .dk_options a {
+    background-color: #333;
+    color: #fff;
+    text-shadow: none;
+  }
+    .dk_theme_black .dk_options a:hover,
+    .dk_theme_black .dk_option_current a {
+      background-color: #E15A01;
+      color: #fff;
+      text-shadow: #604A42 0 1px 0;
+    }
+

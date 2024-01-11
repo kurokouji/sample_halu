@@ -1,0 +1,293 @@
+﻿@charset "utf-8";
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+}
+
+body {
+  font-family: arial,helvetica,clean,sans-serif,verdana;
+  font-size: 12px;
+  line-height: 16px;
+  margin:0;
+  padding:10px 0;
+  background: #efefef;
+}
+
+/*========================================
+ +header
+========================================*/
+#header {
+  width: 1040px; 
+  height: 60px;
+  margin: 0px auto 10px;
+  padding: 7.5px;
+  -webkit-border-radius: .5em;
+  -moz-border-radius: .5em;
+  -ms-border-radius: .5em;
+  border-radius: .5em;
+  background: #999;
+  background: -webkit-gradient(linear, left top, left bottom, from(#bcbcbc), to(#999));
+  background: -webkit-linear-gradient(top, #bcbcbc, #999);
+  background: -moz-linear-gradient(top, #bcbcbc, #999);
+  background: -ms-linear-gradient(top, #bcbcbc, #999);
+  background: -o-linear-gradient(top, #bcbcbc, #999);
+  background: linear-gradient(top, #bcbcbc, #999);
+  -pie-background: linear-gradient(top, #bcbcbc, #999);
+  position:relative;
+  behavior: url("../../../../../System/Html/css/PIE/PIE.htc");
+}
+
+/*========================================
+ +header_contents
+========================================*/
+#header_contents {
+  width: 1020px; 
+  height: 40px;
+  margin: 0px auto;
+  padding: 10px;
+  -webkit-border-radius: .25em;
+  -moz-border-radius: .25em;
+  -ms-border-radius: .25em;
+  border-radius: .25em;
+  background: #fff;
+  background: -webkit-gradient(linear, left top, left bottom, from(#efefef), to(#dfdfdf));
+  background: -webkit-linear-gradient(top, #efefef, #dfdfdf);
+  background: -moz-linear-gradient(top, #efefef, #dfdfdf);
+  background: -ms-linear-gradient(top, #efefef, #dfdfdf);
+  background: -o-linear-gradient(top, #efefef, #dfdfdf);
+  background: linear-gradient(top, #efefef, #dfdfdf);
+  -pie-background: linear-gradient(top, #efefef, #dfdfdf);
+  -webkit-box-shadow: 0 0 2px #000;
+  -moz-box-shadow: 0 0 2px #000;
+  -ms-box-shadow: 0 0 2px #000;
+  box-shadow: 0 0 2px #000;
+  position:relative;
+  behavior: url("../../../../../System/Html/css/PIE/PIE.htc");
+}
+
+/*========================================
+ +header_titleinfo
+========================================*/
+#header_titleinfo {
+  width: 700px;
+  height: 40px;
+  padding: 0px;
+  margin: 10px 0px 0px 0px;
+  position:absolute;
+  top: 0;
+  left: 0;
+}
+
+/*========================================
+ +header_logininfo
+========================================*/
+#header_logoninfo {
+  width: 320px;
+  height: 40px;
+  padding: 0px;
+  margin: 5px 0px 0px 0px;
+  position:absolute;
+  top: 0;
+  right: 0;
+}
+
+/*========================================
+ +loginTable
+========================================*/
+#loginTable input[type="text"] {
+  text-align: center;
+  font-family: "ＭＳ 明朝",serif;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  border-radius: 5px;
+  background: -webkit-gradient(linear, left top, left bottom, from(#e3e3e3), to(#fff));
+  background: -webkit-linear-gradient(top, #e3e3e3, #fff);
+  background: -moz-linear-gradient(top, #e3e3e3, #fff);
+  background: -ms-linear-gradient(top, #e3e3e3, #fff);
+  background: -o-linear-gradient(top, #e3e3e3, #fff);
+  background: linear-gradient(top, #e3e3e3, #fff);
+  -pie-background: linear-gradient(top, #e3e3e3, #fff);
+  position:relative;
+  behavior: url("../../../../../System/Html/css/PIE/PIE.htc");
+}
+
+/*========================================
+ +main
+========================================*/
+#main {
+  width: 1040px; 
+  min-height:680px;
+  margin: 0px auto;
+  padding: 7.5px;
+  -webkit-border-radius: .5em;
+  -moz-border-radius: .5em;
+  -ms-border-radius: .5em;
+  border-radius: .5em;
+  background: #999;
+  background: -webkit-gradient(linear, left top, left bottom, from(#bcbcbc), to(#999));
+  background: -webkit-linear-gradient(top, #bcbcbc, #999);
+  background: -moz-linear-gradient(top, #bcbcbc, #999);
+  background: -ms-linear-gradient(top, #bcbcbc, #999);
+  background: -o-linear-gradient(top, #bcbcbc, #999);
+  background: linear-gradient(top, #bcbcbc, #999);
+  -pie-background: linear-gradient(top, #bcbcbc, #999);
+  position:relative;
+  overflow: visible;
+  behavior: url("../../../../../System/Html/css/PIE/PIE.htc");
+}
+
+/*========================================
+ +main_contents
+========================================*/
+#main_contents {
+  width: 1020px; 
+  min-height:660px;
+  margin: 0px auto;
+  padding: 10px;
+  -webkit-border-radius: .25em;
+  -moz-border-radius: .25em;
+  -ms-border-radius: .25em;
+  border-radius: .25em;
+  background: #fff;
+  background: -webkit-gradient(linear, left top, left bottom, from(#efefef), to(#dfdfdf));
+  background: -webkit-linear-gradient(top, #efefef, #dfdfdf);
+  background: -moz-linear-gradient(top, #efefef, #dfdfdf);
+  background: -ms-linear-gradient(top, #efefef, #dfdfdf);
+  background: -o-linear-gradient(top, #efefef, #dfdfdf);
+  background: linear-gradient(top, #efefef, #dfdfdf);
+  -pie-background: linear-gradient(top, #efefef, #dfdfdf);
+  -webkit-box-shadow: 0 0 2px #000;
+  -moz-box-shadow: 0 0 2px #000;
+  -ms-box-shadow: 0 0 2px #000;
+  box-shadow: 0 0 2px #000;
+  overflow: visible;
+  *zoom: 1;
+  position:absolute;
+  top: 10;
+  left: 10;
+  behavior: url("../../../../../System/Html/css/PIE/PIE.htc");
+}
+
+/*========================================
+ +floating_contents
+========================================*/
+#floating_contents {
+  width: 0px; 
+  min-height: 0px;
+  margin: 0 auto;
+  padding: 10px;
+  -webkit-border-radius: .25em;
+  -moz-border-radius: .25em;
+  -ms-border-radius: .25em;
+  border-radius: .25em;
+  background: #fff;
+  background: -webkit-gradient(linear, left top, left bottom, from(#efefef), to(#dfdfdf));
+  background: -webkit-linear-gradient(top, #efefef, #dfdfdf);
+  background: -moz-linear-gradient(top, #efefef, #dfdfdf);
+  background: -ms-linear-gradient(top, #efefef, #dfdfdf);
+  background: -o-linear-gradient(top, #efefef, #dfdfdf);
+  background: linear-gradient(top, #efefef, #dfdfdf);
+  -pie-background: linear-gradient(top, #efefef, #dfdfdf);
+  -webkit-box-shadow: 0 0 2px #000;
+  -moz-box-shadow: 0 0 2px #000;
+  -ms-box-shadow: 0 0 2px #000;
+  box-shadow: 0 0 2px #000;
+  overflow: visible;
+  *zoom: 1;
+  visibility:hidden;  
+  position:absolute;
+  top: 10;
+  left: 10;
+  behavior: url("../../../../../System/Html/css/PIE/PIE.htc");
+}
+
+/*====================
+ +footer
+====================*/
+#footer {
+  width: 1040px; 
+  height: 40px;
+  margin: 10px auto 0px;
+  padding: 7.5px;
+  -webkit-border-radius: .5em;
+  -moz-border-radius: .5em;
+  -ms-border-radius: .5em;
+  border-radius: .5em;
+  background: #999;
+  background: -webkit-gradient(linear, left top, left bottom, from(#bcbcbc), to(#999));
+  background: -webkit-linear-gradient(top, #bcbcbc, #999);
+  background: -moz-linear-gradient(top, #bcbcbc, #999);
+  background: -ms-linear-gradient(top, #bcbcbc, #999);
+  background: -o-linear-gradient(top, #bcbcbc, #999);
+  background: linear-gradient(top, #bcbcbc, #999);
+  -pie-background: linear-gradient(top, #bcbcbc, #999);
+  behavior: url("../../../../../System/Html/css/PIE/PIE.htc");
+}
+
+/*====================
+ +footer_contents
+====================*/
+#footer_contents {
+  width: 1020px; 
+  height: 20px;
+  margin: 0px auto;
+  padding: 10px;
+  -webkit-border-radius: .25em;
+  -moz-border-radius: .25em;
+  -ms-border-radius: .25em;
+  border-radius: .25em;
+  background: #fff;
+  background: -webkit-gradient(linear, left top, left bottom, from(#efefef), to(#dfdfdf));
+  background: -webkit-linear-gradient(top, #efefef, #dfdfdf);
+  background: -moz-linear-gradient(top, #efefef, #dfdfdf);
+  background: -ms-linear-gradient(top, #efefef, #dfdfdf);
+  background: -o-linear-gradient(top, #efefef, #dfdfdf);
+  background: linear-gradient(top, #efefef, #dfdfdf);
+  -pie-background: linear-gradient(top, #efefef, #dfdfdf);
+  -webkit-box-shadow: 0 0 2px #000;
+  -moz-box-shadow: 0 0 2px #000;
+  -ms-box-shadow: 0 0 2px #000;
+  box-shadow: 0 0 2px #000;
+  position:relative;
+  behavior: url("../../../../../System/Html/css/PIE/PIE.htc");
+}
+
+/*====================
+ +align-right 
+====================*/
+.align-right {
+  text-align: right;
+}
+
+/*====================
+ +align-center 
+====================*/
+.align-center {
+  text-align: center;
+}
+
+/*====================
+ +header table 
+====================*/
+.rmenuspanhover {
+  outline: dotted 1px #f33;
+}
+
+.rmenuspanfocus {
+  outline: solid 1px #f33;
+}
+
+/*====================
+ +detail table 
+====================*/
+.rmenutdhover {
+  outline: dotted 1px #f33;
+}
+
+.rmenutdfocus {
+  outline: solid 1px #f33;
+}

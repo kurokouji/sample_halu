@@ -1,0 +1,34 @@
+# coding: UTF-8
+
+from MasterMainteOfViewMixin import MasterMainte_view
+
+class UserList_view():
+    def __init__(self, mvclog, mvclogname, responsedict, sqldict, requestdict):
+        try:
+            self.mvclog     = mvclog
+            self.mvclogname = mvclogname
+            self.mvclog.debug(self.mvclogname, 'UserList_view init start')
+
+            self.responsedict = responsedict
+            self.sqldict      = sqldict
+            self.requestdict  = requestdict
+
+        except Exception as e:
+            self.mvclog.debug(self.mvclogname, 'UserList_view init exception message : {e}')
+
+        finally:
+            self.mvclog.debug(self.mvclogname, 'UserList_view init end')
+
+     # カレントページ数とページ当りの行数を使って、オフセット行数を計算する
+    def getMaxPageCountOfUserList(self, idName):
+        """
+        MasterMainteOfView を呼び出す
+        """
+        self.mvclog.debug(self.mvclogname, 'UserList_view getMaxPageCountOfUserList start')
+
+        tempObj = MasterMainte_view(self.responsedict)
+        status  = tempObj.getMaxPageCount(idName)
+
+        self.mvclog.debug(self.mvclogname, 'UserList_view getMaxPageCountOfUserList end')
+        return status
+

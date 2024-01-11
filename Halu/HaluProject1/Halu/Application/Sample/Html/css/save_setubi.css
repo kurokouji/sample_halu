@@ -1,0 +1,114 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/*-----------------------------------------------
+ *  Flowershop 画面用css
+ *----------------------------------------------- */
+.input-sm {
+  height: 28px;
+  padding: 2px 3px;
+  font-size: 14px;
+  line-height: 1.5;
+  border-radius: 4px;
+}
+
+select.input-sm {
+  height: 28px;
+  line-height: 28px;
+}
+
+/*tableの縦線　両端はなし*/
+#mainTableH th:nth-of-type(n+2),#mainTableH tr td:nth-of-type(n+2),#mainTable th:nth-of-type(n+2),#mainTable tr td:nth-of-type(n+2) {
+    border-left: 1px solid #d0d0d0;
+}
+
+.table-condensed > thead > tr > th,
+.table-condensed > tbody > tr > th,
+.table-condensed > tfoot > tr > th,
+.table-condensed > thead > tr > td,
+.table-condensed > tbody > tr > td,
+.table-condensed > tfoot > tr > td {
+  padding: 2px;
+  vertical-align: middle;
+}
+
+.table-condensed > thead > tr > th,
+.table-condensed > tbody > tr > th,
+.table-condensed > tfoot > tr > th {
+  font-size: 15px;
+}
+
+.input-group-addon,
+.btn-sm,
+.btn-group-sm > .btn {
+  padding: 3 px 10px;
+  font-size: 14px;
+  line-height: 1.5;
+  border-radius: 4px;
+}
+
+.glyphicon.glyphicon-th {
+  font-size: 13px;
+}
+.nav-stacked > li + li {
+    margin-top: 0px;
+}
+
+.rmenuTable {
+    margin-bottom: 4px;
+}
+
+.panel {
+  margin-bottom: 5px;
+  background-color: #ffffff;
+  border: 1px solid transparent;
+  border-radius: 6px;
+  -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+}
+.panel-body {
+  padding: 5px;
+}
+.panel-heading {
+  padding: 3px 3px;
+  border-bottom: 1px solid transparent;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+  font-size: 15px;
+}
+.panel-heading > .dropdown .dropdown-toggle {
+  color: inherit;
+}
+
+
+/*-----------------------------------------------
+ *  FishStore 商品マスタ一覧画面用css
+ *----------------------------------------------- */
+
+.itemtype .btn-group > .btn:first-child {
+    margin-left: -4px;
+    height: 60px;
+}
+
+/*-----------------------------------------------
+ *  FishStore 商品マスタ登録・修正画面用css
+ *----------------------------------------------- */
+
+.checkboxtd {
+    background-color: #fff;
+    border: 1px solid #738996;
+    box-shadow: 0 0 0 2px #738996 inset;
+}
+
+/*jquery-scrolltable/jquery.tbodyscroll.js 改修までの繋ぎ指定
+tableのheadの高さが正しく指定されてないのを手動補正。
+[.tbodyScroll-head-bg]に指定されている高さと
+tableのthの高さとの差分「6px固定」をmarginで[.tbodyScroll-inner]に指定する
+※jsによって付加されるdivのクラス。thにもどこかのjsによって高さが付加されてる。
+th,tdのpaddingと関係して調整値変わる
+----------------------------------*/
+
+.tbodyScroll-inner{
+    margin: 6px 0px 0px 0px;
+}
+/*----------------------------------*/

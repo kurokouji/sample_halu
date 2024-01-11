@@ -1,0 +1,294 @@
+@charset "UTF-8";
+/* CSS Document */
+/*rmenu_css_ファイル名ルール：*/
+/*[英数字(記号なし)]_[<body>の背景色16進数6ケタ]_[サブ色16進数6ケタ](以下自由)  */
+/*※[][]の間は「_」(アンダースコア/アンダーバー)                                */
+/*※サブ色以下はなくてもよい                                                    */
+/*※先頭の[英数字(記号なし)]を含めファイル名には「-」(ハイフン)は使わないこと。 */
+/*例1：BBlue_ddeef9.css                                                         */
+/*例2：monoOkai_fafafa.css                                                      */
+/*例3：Forest_502110_FB6835_test.css                                            */
+
+
+/* nav-part ------------------- */
+
+.navbar-brand {
+  background: url("../images/logo_238-85_01business.png") no-repeat left center;
+  background-size: contain;
+/*  height: 85px;*/
+/*  width: 238px;*/
+  padding-left: 150px;
+}
+
+.navbar-default {
+  background-color: #000;
+  color: #bbb;
+  border-bottom: solid 1px #2F2F2F;
+}
+
+.navbar-default .navbar-brand {
+    color: #bbb;
+}
+
+.navbar-default .navbar-toggle {
+    border-color: #2F2F2F;
+    background-color: #000;
+}
+
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+  background-color: #f0f0f0;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #2F2F2F;
+}
+
+/* body-part ------------------- */
+html,body {
+	width:100%;
+	height:100%;
+/*background*/
+	background:#000;
+}
+
+
+.container {
+    background: none repeat scroll 0 0 #000;
+    -webkit-box-shadow: 25px 0px 20px -15px rgba(255,255,255,0.3), -25px 0px 20px -15px rgba(255,255,255,0.3);
+       -moz-box-shadow: 25px 0px 20px -15px rgba(255,255,255,0.3), -25px 0px 20px -15px rgba(255,255,255,0.3);
+            box-shadow: 25px 0px 20px -15px rgba(255,255,255,0.3), -25px 0px 20px -15px rgba(255,255,255,0.3);
+}
+
+#mainForm {
+    background: none repeat scroll 0 0 #000;
+/*
+    -webkit-box-shadow: 25px 0px 20px -15px rgba(0,0,0,0.1), -25px 0px 20px -15px rgba(0,0,0,0.1);
+       -moz-box-shadow: 25px 0px 20px -15px rgba(0,0,0,0.1), -25px 0px 20px -15px rgba(0,0,0,0.1);
+            box-shadow: 25px 0px 20px -15px rgba(0,0,0,0.1), -25px 0px 20px -15px rgba(0,0,0,0.1);
+*/
+}
+
+a {
+    color: #bbb;
+}
+a:hover,
+a:focus {
+  color: #bbb;
+}
+/* btn-part ------------------- */
+   /*Basic color*/
+.btn {
+    background: none repeat scroll 0 0 #000;
+    border-color: transparent transparent #4B4B4B;
+    color: #4B4B4B;
+}
+.btn:hover,
+.btn:focus {  /*Basic*/
+  background: #000;
+  border-color: transparent transparent #9B9B9B;
+  color: #ffffff;
+  color: #9B9B9B;
+}
+
+.btn:focus, .btn:active:focus, .btn.active:focus {
+    outline: none;
+}
+
+
+   /*on body color*/
+.btn.color4 {
+    background: none repeat scroll 0 0 #000;
+    border-color: transparent transparent #4B4B4B;
+    color: #4B4B4B;
+}
+.btn.color4:hover,
+.btn.color4:focus {
+  background: #000;
+  border-color: transparent transparent #9B9B9B;
+  color: #ffffff;
+  color: #9B9B9B;
+}
+
+
+   /*addon color (calendar)*/
+.input-group-addon {
+  background: #000;
+  color: #ffffff;
+  color: #823D3D;
+}
+
+.bootstrap-datetimepicker-widget td.active, .bootstrap-datetimepicker-widget td.active:hover {
+    background-color: #C6E9FA;
+    background-image: linear-gradient(to bottom, #fff, #C6E9FA);
+    background-repeat: repeat-x;
+    border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+    color: #823D3D;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+}
+
+.bootstrap-datetimepicker-widget td.active:hover, .bootstrap-datetimepicker-widget td.active:hover:hover, .bootstrap-datetimepicker-widget td.active:active, .bootstrap-datetimepicker-widget td.active:hover:active, .bootstrap-datetimepicker-widget td.active.active, .bootstrap-datetimepicker-widget td.active.active:hover, .bootstrap-datetimepicker-widget td.active.disabled, .bootstrap-datetimepicker-widget td.active.disabled:hover, .bootstrap-datetimepicker-widget td.active[disabled], .bootstrap-datetimepicker-widget td.active[disabled]:hover {
+    background-color: #FAC6C6;
+    color: #823D3D;
+}
+
+
+/*tabl-part -------------------*/
+   /*Basic color*/
+table {
+    background: #000;
+    color: #bbb;
+    border-collapse: collapse;
+}
+
+.rmenuTable {
+  border: 0 none #000;
+}
+
+.rmenuTable thead {
+}
+
+.rmenuTable th {
+  border: 0 none #000;
+  background: #000;
+  color: #bbb;
+}
+.table > caption + thead > tr:first-child > th, .table > colgroup + thead > tr:first-child > th, .table > thead:first-child > tr:first-child > th {
+  border-top: solid 1px #969696;
+  border-bottom: solid 1px #969696;
+}
+
+
+.rmenuTable td {
+  border: 0 none #000;
+  border-bottom: solid 1px #2F2F2F;
+}
+.rmenuTable tr:nth-child(odd) {
+  background: #000;
+}
+.rmenuTable tr:nth-child(even) {
+  background: #000;
+}
+
+   /*selected color*/
+.rowBackground {
+  background: #696969;
+  color: #000;
+}
+
+
+/* panel-part ------------------- */
+.panel-heading.color3b, .panel-body.color3b, .panel-footer.color3b {
+    background: none repeat scroll 0 0 #696969;
+    color: #000;
+}
+
+.panel-info > .panel-heading {
+    border-color: #2F2F2F;
+}
+.panel-info > .panel-heading + .panel-collapse .panel-body {
+    border-top-color: #2F2F2F;
+}
+.panel-heading.color3, .panel-body.color3, .panel-footer.color3 {
+    background: none repeat scroll 0 0 #000;
+    color: #bbb;
+}
+
+/* error_modal-part ------------------- */
+.modal-backdrop {
+    background-color: #ddd;
+}
+.modal-backdrop:before {
+    background: none repeat scroll 0 0 #ddd;
+}
+.modal-content {
+    background: none repeat scroll 0 0 #eee;
+    border: medium none;
+    box-shadow: none;
+}
+.modal-header > .close {
+    color: #444;
+}
+.modal-title {
+    color: #FF6969;
+}
+.modal-body {
+    background: none repeat scroll 0 0 #fff;
+    color: #444;
+}
+
+
+
+/* error_message-part ------------------- */
+.errorMessage {
+    background: none repeat scroll 0 0 #FFE5DF;
+    color: #FF5500;
+}
+
+/* header-part ------------------- */
+#rmenu-header {
+}
+
+/* footer-part ------------------- */
+#rmenu-footer {
+}
+
+/* pagefooter-part ------------------- */
+#rmenu-pagefooter {
+    background: none repeat scroll 0 0 #000;
+    color: #bbb;
+    margin-top: 20px;
+    padding-bottom: 20px;
+}
+
+#rmenu-pagefooter a:link { color: #2582b8; }
+#rmenu-pagefooter a:visited { color: #2582b8; }
+#rmenu-pagefooter a:hover { color: #4B4B4B; }
+#rmenu-pagefooter a:active { color: #2582b8; }
+
+
+
+
+/* manual page ------------------- */
+#manual {
+}
+/* terms page ------------------- */
+#terms {
+}
+#terms .waku {
+  background-color: #C8F5F5;
+  border: 1px solid #bce8f1;
+  padding: 0px 20px 30px;
+}
+#terms ul li{
+  list-style-type: none;
+}
+#terms .child{
+  list-style-type: upper-roman;
+}
+#terms .grandson{
+  list-style-type: lower-roman;
+}
+/* security page ------------------- */
+#security {
+}
+/* privacy page ------------------- */
+#privacy {
+}
+#privacy .waku {
+  background-color: #C8F5C8;
+  border: 1px solid #C3F1BB;
+  padding: 0px 20px 30px;
+}
+#privacy ul li{
+  list-style-type: none;
+}
+#privacy .child{
+  list-style-type: upper-roman;
+}
+#privacy .grandson{
+  list-style-type: lower-roman;
+}
+/* disclaimer page ------------------- */
+#disclaimer {
+}

@@ -1,0 +1,38 @@
+{
+  "comment": "先生別契約明細一覧表 validation",
+  "html": "Sample/Json/Apps/T_SeitobetsuKeiyakuList",
+  "records": [
+  {
+    "id": "header",
+    "multiline": "no",
+    "record": {
+      "ページライン数": {
+        "validation": ["required",
+        "integerP"],
+        "min": "1",
+        "max": "11"
+      },
+      "カレントページ": {
+        "validation": ["required",
+        "integerP"],
+        "min": "1",
+        "max": "11"
+      },
+      "検索受注日カラ": {
+        "validation": ["nonrequired",
+        "yyyymmdd"],
+        "format": "yyyySmmSdd",
+        "min": "8",
+        "max": "8"
+      },
+      "検索受注日マデ": {
+        "validation": ["nonrequired",
+        "yyyymmdd"],
+        "format": "yyyySmmSdd",
+        "min": "8",
+        "max": "8"
+      }
+    }
+  }
+  ]
+}

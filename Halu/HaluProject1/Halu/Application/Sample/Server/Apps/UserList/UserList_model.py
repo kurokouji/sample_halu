@@ -55,7 +55,7 @@ class UserList_model():
 
         self.mvclog.debug(self.mvclogname, 'UserList_model getOffsetLine start')
 
-        tempObj = MasterMainte_model(self.requestdict, self.sqldict)
+        tempObj = MasterMainte_model(self.requestdict, self.sqldict, self.mvclog, self.mvclogname)
         status  = tempObj.getOffsetLine(idName1, idName2)
 
         self.mvclog.debug(self.mvclogname, 'UserList_model getOffsetLine end')
